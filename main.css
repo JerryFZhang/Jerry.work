@@ -1,0 +1,160 @@
+*{
+	padding:0;
+	margin:0;
+}
+h1{
+	color: black;
+}
+
+body{
+	font-family: "Calibri", sans-serif;
+	font-size: 100%;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color:#666;
+}
+
+a:hover{
+	color:#999;
+}
+
+p{
+	line-height: 2em;
+	margin:0 0 20px;
+	text-align: center;
+}
+
+/*.fullscreen{
+	max-width: 100%;
+	background-image: url('https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bc3d537113333c4dfdc6f490fe0f55fb');
+}*/
+.wrap{
+	max-width: 600px;
+	margin:150px auto;
+	text-align: center;
+}
+
+.type-wrap{
+	margin:10px auto;
+	padding:20px;
+	background:#f0f0f0;
+	border-radius:5px;
+	border:#CCC 1px solid;
+	text-align: center;;
+}
+.stand-out{
+	font-size: 50px;
+	font-weight: lighter;
+}
+.links{
+	margin:20px 0;
+	font-size: 0.75em;
+	text-align: center;
+	color: gray;
+}
+
+/*
+.know-more{
+
+	position: absolute;
+	color: grey;
+	bottom: 80 px;
+	align-content: center;
+	width: 160px;
+	height: 72px;
+	left: 50%;
+	margin-left: -80px;
+
+}
+*/
+/*Code for animated arrow*/
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	align-items: center;
+	stroke: #2994D1;
+	fill: transparent;
+	stroke-width: 1px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+/*End of the code for arrow*/
+
+/* code for animated blinking cursor */
+.typed-cursor{
+		opacity: 1;
+		font-weight: 100;
+		-webkit-animation: blink 0.7s infinite;
+		-moz-animation: blink 0.7s infinite;
+		-ms-animation: blink 0.7s infinite;
+		-o-animation: blink 0.7s infinite;
+		animation: blink 0.7s infinite;
+}
+
+@-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+}
+@-moz-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+}
+@-ms-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+}
+@-o-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+}
+/* End of code for animated blinking cursor*/
