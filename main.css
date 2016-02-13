@@ -5,15 +5,30 @@
 h1{
 	color: white;
 	font-size: 60px;
-	text-shadow: 2px 2px #003366;
+	font-weight: normal;
+	line-height: normal;
 }
+/*.flowting {
+	max-width: 100%;
+  color: black;
+  text-align: center;
+  bottom:10px;
+ 	align-items: center;
+  padding: 5px;
+
+}*/
 
 body{
 	font-family: "Calibri", sans-serif;
 	font-size: 100%;
+	font-weight: lighter;
 	text-align: center;
 }
+profile-pic{
+	margin : 100px;
 
+
+}
 a{
 	text-decoration: none;
 	color:#666;
@@ -23,116 +38,31 @@ a:hover{
 	color:#999;
 }
 
-/*p{
-	line-height: 2em;
-	margin:0 0 20px;
-	text-align: center;
-}*/
 
 .fullscreen{
 	max-width: 100%;
-	padding:0.1px;
-	height: 900px;
-	/*background-image: url('https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bc3d537113333c4dfdc6f490fe0f55fb');*/
-	/*background-size: contain;*/
-	/*background-position: top;*/
-	/*background-repeat: no-repeat;*/
-	background-color: #C0C0C0;
+	height: 768px;
+	background-color: white;
 
 }
 .wrap{
 	width: 80%;
 	height: 150px;
-	margin:150px auto;
-	align-items: center;
-	align-content: center;
-	/*background: rgb(34,34,34); *//*for IE */
-	/*background: rgba(34,34,34,0.75);*/
+	margin: 400px auto;
 }
 
 .type-wrap{
-	margin:10px auto;
-	padding:20px;
-	background:#f0f0f0;
-	border-radius:5px;
-	border:#CCC 1px solid;
-	text-align: center;;
+
+	text-align: center;
+	background: rgba(255,255,255,0.8);
 }
-.stand-out{
-	font-size: 50px;
-	font-weight: lighter;
-}
+
 .links{
 	margin:20px 0;
 	font-size: 0.75em;
 	text-align: center;
 	color: gray;
 }
-
-/*
-.know-more{
-
-	position: absolute;
-	color: grey;
-	bottom: 80 px;
-	align-content: center;
-	width: 160px;
-	height: 72px;
-	left: 50%;
-	margin-left: -80px;
-
-}
-*/
-/*Code for animated arrow*/
-.arrows {
-	width: 60px;
-	height: 72px;
-	position: absolute;
-	left: 50%;
-	margin-left: -30px;
-	bottom: 20px;
-}
-
-.arrows path {
-	align-items: center;
-	stroke: #2994D1;
-	fill: transparent;
-	stroke-width: 1px;
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite;
-}
-
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-@-webkit-keyframes arrow /*Safari and Chrome*/
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-.arrows path.a1 {
-	animation-delay:-1s;
-	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
-}
-
-.arrows path.a2 {
-	animation-delay:-0.5s;
-	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
-}
-
-.arrows path.a3 {
-	animation-delay:0s;
-	-webkit-animation-delay:0s; /* Safari 和 Chrome */
-}
-/*End of the code for arrow*/
 
 /* code for animated blinking cursor */
 .typed-cursor{
@@ -171,3 +101,27 @@ a:hover{
 		100% { opacity:1; }
 }
 /* End of code for animated blinking cursor*/
+
+/*newcss*/
+/*body {
+	overflow:hidden;
+	margin:0;
+		font-family: Georgia;
+	font-weight: normal;
+	font-style:oblique;
+}*/
+canvas {
+	cursor:none;
+}
+
+aside {
+	position: absolute;
+	color: white;
+	margin:10px auto;
+	text-align: center;
+	top:0;
+	left:0;
+	padding: 50px;
+	border-radius:5px;
+	background: rgba(0,0,0,0.8);
+}
