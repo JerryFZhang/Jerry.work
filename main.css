@@ -63,15 +63,3 @@ a:hover{
 		100% { opacity:1; }
 }
 /* End of code for animated blinking cursor*/
-
-/*newcss*/
-
-.tagline {
-	width: 60%;
-	position: relative;
-	left:-50%;
-	color: white;
-	text-align: center;
-	top:0;
-
-}
