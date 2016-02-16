@@ -19,15 +19,14 @@
 }
 div{
 	position : relative;
-top:0px;
-maigin: 0px;
-height: 100vh;
-width: 100%;
-background-image: url('https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bc3d537113333c4dfdc6f490fe0f55fb');
-background-size: cover;
-background-position: top;
-background-repeat: no-repeat;
-overflow: hidden;
+	top:0px;
+	maigin: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url('https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bc3d537113333c4dfdc6f490fe0f55fb');
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
 body{
 	font-family: "Calibri", sans-serif;
