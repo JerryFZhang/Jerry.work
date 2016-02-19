@@ -5,14 +5,14 @@
   margin-left: 0;
   margin-right: 0;
 	margin: 200px;
-  color: black;
+  color: WHITE;
 	text-align: center;
 	font-weight: normal;
 	max-width: inherit;
 	font-size: 60px;
 	padding: 50px;
-	border-radius:5px;
-	background: rgba(256,256,256,0.85);
+	border-radius:25px;
+	/*background: rgba(256,256,256,0.75);*/
 	}
 .hidden{
  visibility: hidden;
