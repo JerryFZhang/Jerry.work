@@ -20,9 +20,11 @@ body{
 a{
 	text-decoration: none;
 	color:#666;
+  /* Done Migrating */
 }
 a:hover{
 	color:#999;
+  /* Done Migrating */
 }
 .front{
 background-image: url('https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bc3d537113333c4dfdc6f490fe0f55fb');
@@ -39,7 +41,7 @@ background-repeat: no-repeat;
 	color: white;
 }
 .personal{
-	background-color: blue;
+	background-color: blue;/* Done Migrating */
 	color: white;
 	text-align: center;
 }
