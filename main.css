@@ -1,0 +1,58 @@
+/*Migrated code are being minimized.*/
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Done Migrating */
+div{position : relative;top:0px;margin: 0px;height: 100vh;width: 100%;overflow: hidden;background-color: black;}
+body{font-family: "Calibri", sans-serif;}
+a{text-decoration: none;color:#666;}
+a:hover{color:#999;}
+.front{background-image: url('https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bc3d537113333c4dfdc6f490fe0f55fb');background-size: cover;background-repeat: no-repeat;}
+.footer           {position : relative;top:0px;margin: 0px;width: 100%;height : 100px;overflow: hidden;color: white;}
+.personal         {background-color: blue; color: white;text-align: center;}
+.social           {color: white;}
+.description      {display: block;margin-top: 0.67em;margin-bottom: 0.67em;margin-left: 0;margin-right: 0;margin: 150px;color: white;text-align: center;font-weight: normal;max-width: inherit;font-size: 60px;padding: 50px;border-radius:25px;/*background: rgba(256,256,256,0.81);*/}
+.links            {margin:20px 0;font-size: 0.75em;text-align: center;color: gray;}
+
+
+/* code for animated blinking cursor */
+.typed-cursor{
+		opacity: 1;
+		font-weight: 100;
+		-webkit-animation: blink 0.7s infinite;
+		-moz-animation: blink 0.7s infinite;
+		-ms-animation: blink 0.7s infinite;
+		-o-animation: blink 0.7s infinite;
+		animation: blink 0.7s infinite;
+}
+
+@-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+}
+@-moz-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+}
+@-ms-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+}
+@-o-keyframes blink{
+		0% { opacity:1; }
+		50% { opacity:0; }
+		100% { opacity:1; }
+}
+/* End of code for animated blinking cursor*/
