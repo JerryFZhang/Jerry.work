@@ -1,5 +1,5 @@
-@ link             :#666；
-@ link-hover       :darken(@link, 10%);
+@ links             :#666;
+@ links-hover       :darken(@links, 10%);
 @ background-default:black;
 @ background-personal: blue;
 @ text-description:white;
@@ -8,10 +8,10 @@
 @ white-translucent: rgba(256,256,256,0.81);
 @ black-translucent: rgba(0,0,0,0.81);
 a,{
-  color: @link;
+  color: @links;
 }
 a:hover{
-  color:@ link-hover;
+  color:@ links-hover;
 }
 body{
   font-family: "Calibri" , sans-serif;
@@ -52,7 +52,7 @@ div{
 }
 .personal{
   background-color: @background-personal;
-  color: white;
+  color: @text-description;
   text-align: center;
 }
 
@@ -60,10 +60,10 @@ div{
   margin 20px 0;
   font-size: 0.75 em;
   text-align: center;
-  color: gray;
+  color: @links
 }
 .social{
-  color: white;
+  color: @text-description;
 }
 .front{
   background-image: url('https://images.unsplash.com/photo-1413708617479-50918bc877eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bc3d537113333c4dfdc6f490fe0f55fb');
