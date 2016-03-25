@@ -1,5 +1,6 @@
 @links             :#666;
 @links-hover       :darken(@links, 10%);
+@links-margin      :20px 0;
 @background-default:black;
 @background-personal: blue;
 @text-description:white;
@@ -57,10 +58,10 @@ div{
 }
 
 .links{
-  margin 20px 0;
+  color: @links;
+  margin:@links-margin;
   font-size: 0.75 em;
   text-align: center;
-  color: @links
 }
 .social{
   color: @text-description;
