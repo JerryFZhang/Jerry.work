@@ -1,5 +1,5 @@
 # Fengwei.ca
-This is a my persona website used to show off my hobbies, projects and creations.
+This is a my personal website's landing page.
 
 # Acknowledgements
 These are some of the frameworks/libraries that I used during the development of this website.
