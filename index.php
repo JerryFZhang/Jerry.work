@@ -11,12 +11,12 @@ if($lc == "zh"){
     include_once("home-zh.html");
     exit();
 } else if($lc == "fr"){
-    header("location: index_en.php");
+    include_once("home-en.html");
     //will do later
     exit();
 }
 else{ // don't forget the default case if $lc is empty
-    header("location: index_en.php");
+    include_once("home-zh.html");
     exit();
 }
 ?>
