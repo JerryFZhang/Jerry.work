@@ -8,7 +8,7 @@ if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE']))
 
     // Now we simply evaluate that variable to detect specific languages
 if($lc == "zh"){
-    header("location: php/index_zh.php");
+    include_once("home-zh.html");
     exit();
 } else if($lc == "fr"){
     header("location: index_en.php");
