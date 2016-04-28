@@ -16,7 +16,7 @@ if($lc == "zh"){
     exit();
 }
 else{ // don't forget the default case if $lc is empty
-    include_once("home-zh.html");
+    include_once("home-en.html");
     exit();
 }
 ?>
