@@ -20,3 +20,15 @@ else{ // don't forget the default case if $lc is empty
     exit();
 }
 ?>
+
+<?php
+$file = 'FengweiZhang.pdf';
+$filename = 'FengweiZhang.pdf';
+header('Content-type: application/pdf');
+header('Content-Disposition: inline; filename="' . $filename . '"');
+header('Content-Transfer-Encoding: binary');
+header('Content-Length: ' . filesize($file));
+header('Accept-Ranges: bytes');
+
+@readfile($file);
+?>
