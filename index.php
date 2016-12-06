@@ -32,3 +32,21 @@ header('Accept-Ranges: bytes');
 
 @readfile($file);
 ?>
+
+
+<?php
+$track = "fls.mp3";
+
+if (file_exists($track)) {
+    header("Content-Type: audio/mpeg");
+    header('Content-Length: ' . filesize($track));
+    header('Content-Disposition: inline; filename="lilly.mp3"');
+    header('X-Pad: avoid browser bug');
+    header('Cache-Control: no-cache');
+    readfile($track);
+    exit;
+} else {
+    header($_SERVER['SERVER_PROTOCOL'].' 404 Not Found', true, 404);
+    echo "no file";
+}
+?>
