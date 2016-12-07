@@ -22,8 +22,8 @@ else{ // don't forget the default case if $lc is empty
 ?>
 
 <?php
-$file = 'FengweiZhang.pdf';
-$filename = 'FengweiZhang.pdf';
+$file = 'resume.pdf';
+$filename = 'resume.pdf';
 header('Content-type: application/pdf');
 header('Content-Disposition: inline; filename="' . $filename . '"');
 header('Content-Transfer-Encoding: binary');
